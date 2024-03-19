@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&family=Ribeye&family=Roboto&family=Silkscreen:wght@400;700&display=swap');
+
+h1 {
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 5vw;
+  color: #14334a;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}

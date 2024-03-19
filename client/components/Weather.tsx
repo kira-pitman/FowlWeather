@@ -6,7 +6,7 @@ export default function Weather({ city }) {
   return (
     <div className="weather-container">
       <h2>{city.city_name}</h2>
-      <ul className="nice-list">
+      <ul className="weather-info">
         <li>Temperature: {city.temp}°C</li>
         <li>Feels Like: {city.feels_like}°C</li>
         <li>Humidity: {city.humidity}%</li>

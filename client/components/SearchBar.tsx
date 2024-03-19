@@ -9,17 +9,9 @@ export default function CitySearch({
   searchText,
   setSearchText,
 }: Props) {
-  // const [searchText, setSearchText] = useState('')
-
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchText(event.target.value)
   }
-
-  // const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-  //   event.preventDefault()
-  //   const weather = getWeather(searchText)
-  //   setSearchText('')
-  // }
 
   return (
     <div className="search">

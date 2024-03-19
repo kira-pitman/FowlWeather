@@ -2,13 +2,11 @@
 
 h1 {
   font-family: 'Silkscreen', sans-serif;
-  text-align: center;
   font-size: 5vw;
   color: #14334a;
 
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  padding-left: 8vh;
 }

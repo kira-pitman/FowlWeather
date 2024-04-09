@@ -15,13 +15,13 @@ I wanted to have a play around with external API's again, and try to make a weat
 ## MVP
 Lets user look at different locations weather forecast for the day  
 Is fully accessible in the Front End  
-Have three.js modeled images for weather forecast i.e. goose with rainjacket, chicken holding ice cream in the sun, duck under clouds, turkey in tornado etc...
 
 ## STRETCH
 Has minimum 75% serverside testing coverage  
 Lets user choose location for weather forecast  
 Lets user choose length of forecase at chosen location  
 Has an animated model for weather forecast  
+Have three.js modeled images for weather forecast i.e. goose with rainjacket, chicken holding ice cream in the sun, duck under clouds, turkey in tornado etc...
 
 ## TECH USED
 - React

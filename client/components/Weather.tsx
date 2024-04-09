@@ -2,7 +2,7 @@ import { Weather as WeatherType } from '../../models/weather.ts'
 import { useEffect, useState } from 'react'
 import { fetchWeather } from '../apis/apiClient.ts'
 
-export default function Weather({ city }) {
+export default function Weather( city: WeatherType) {
   return (
     <div className="weather-container">
       <h2>{city.city_name}</h2>
